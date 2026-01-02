@@ -1,9 +1,9 @@
 {
-	"id": "metehan-ro2-template",
-	"authors": ["Metehan"],
-	"origin": "https://github.com/Metehan023/RO2-AMP-Template",
-	"url": "https://github.com/Metehan023/RO2-AMP-Template",
-	"imagefile": "",
-	"prefix": "ro2",
-	"repotype": "AppTemplates"
+    "id": "60494ed2-e5ef-4bbd-acbc-30d841fc106a",
+    "authors": ["Metehan023-TR"],
+    "origin": "https://github.com/Metehan023/red-orchestra-2.git",
+    "url": "https://github.com/Metehan023/red-orchestra-2",
+    "imagefile": "",
+    "prefix": "ro2",
+    "repotype": "AppTemplates"
 }
