@@ -15,7 +15,7 @@ App.AdminMethod=STDIO
 App.HasReadableConsole=true
 App.HasWritableConsole=true
 App.DisplayName=Red Orchestra 2
-App.CommandLineArgs=TE-Apartments?minplayers=0?maxplayers=32?adminpassword={{$RemoteAdminPassword}} -brewedloading {$PlatformArgs}
+App.CommandLineArgs=TE-Apartments?minplayers=0?maxplayers=32?adminpassword={{$RemoteAdminPassword}} -brewedloading
 App.WindowsCommandLineArgs=
 App.CommandLineParameterFormat=-{0} "{1}"
 App.CommandLineParameterDelimiter= 
@@ -87,6 +87,6 @@ App.EnvironmentVariables={
  "WINEPREFIX": "{{$FullRootDir}}.wine",
  "WINEARCH": "win64",
  "WINEDEBUG": "-all",
- "XDG_RUNTIME_DIR": "/tmp/xdg-{{$InstanceId}}",
- "DISPLAY": ":99"
+ "XDG_RUNTIME_DIR": "/tmp/xdg-{{$InstanceId}}"
 }
+
