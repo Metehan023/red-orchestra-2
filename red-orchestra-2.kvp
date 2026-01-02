@@ -15,7 +15,6 @@ App.AdminMethod=STDIO
 App.HasReadableConsole=true
 App.HasWritableConsole=true
 App.DisplayName=Red Orchestra 2
-App.CommandLineArgs=TE-Apartments?minplayers=0?maxplayers=32?adminpassword={{$RemoteAdminPassword}} -brewedloading
 App.WindowsCommandLineArgs=
 App.CommandLineParameterFormat=-{0} "{1}"
 App.CommandLineParameterDelimiter= 
@@ -78,10 +77,10 @@ App.BaseDirectory=./red-orchestra-2/35450/
 App.WorkingDir=35450
 App.ExecutableWin=Binaries\Win32\ROGame.exe
 App.ExecutableLinux=/usr/bin/env
-App.LinuxCommandLineArgs=xvfb-run -a wine Binaries/Win32/ROGame.exe TE-Apartments?minplayers=0?maxplayers=32?adminpassword={{$RemoteAdminPassword}} -server -unattended -nosound -brewedloading {$PlatformArgs}
+App.LinuxCommandLineArgs=-lc "xvfb-run -a wine Binaries/Win32/ROGame.exe TE-Apartments?minplayers=0?maxplayers=32?adminpassword={{$RemoteAdminPassword}} -server -unattended -nosound -brewedloading {$PlatformArgs}"
 App.Ports=@IncludeJson[red-orchestra-2ports.json]
 App.UpdateSources=@IncludeJson[red-orchestra-2updates.json]
-App.EnvironmentVariables={
+App.CommandLineArgs=App.EnvironmentVariables={
  "SteamAppId": "35450",
  "WINEPREFIX": "{{$FullRootDir}}.wine",
  "WINEARCH": "win64",
