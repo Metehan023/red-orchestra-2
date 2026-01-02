@@ -89,4 +89,3 @@ App.EnvironmentVariables={
  "DISPLAY": ":99",
  "XDG_RUNTIME_DIR": "/tmp"
 }
-
