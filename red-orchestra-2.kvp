@@ -15,7 +15,7 @@ App.AdminMethod=STDIO
 App.HasReadableConsole=true
 App.HasWritableConsole=true
 App.DisplayName=Red Orchestra 2
-App.CommandLineArgs={$PlatformArgs} TE-Apartments?minplayers=0?maxplayers=32?adminpassword={{$RemoteAdminPassword}} -brewedloading
+App.CommandLineArgs=TE-Apartments?minplayers=0?maxplayers=32?adminpassword={{$RemoteAdminPassword}} -brewedloading {$PlatformArgs}
 App.WindowsCommandLineArgs=
 App.CommandLineParameterFormat=-{0} "{1}"
 App.CommandLineParameterDelimiter= 
@@ -78,7 +78,7 @@ App.BaseDirectory=./red-orchestra-2/35450/
 App.WorkingDir=35450
 App.ExecutableWin=Binaries\Win32\ROGame.exe
 App.ExecutableLinux=/usr/bin/xvfb-run
-App.LinuxCommandLineArgs="Binaries/Win32/ROGame.exe {$PlatformArgs} TE-Apartments?minplayers=0?maxplayers=32?adminpassword={{$RemoteAdminPassword}} -brewedloading"
+App.LinuxCommandLineArgs="wine Binaries/Win32/ROGame.exe"
 App.Ports=@IncludeJson[red-orchestra-2ports.json]
 App.UpdateSources=@IncludeJson[red-orchestra-2updates.json]
 App.EnvironmentVariables={
