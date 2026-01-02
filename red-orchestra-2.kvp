@@ -78,7 +78,7 @@ App.BaseDirectory=./red-orchestra-2/35450/
 App.WorkingDir=35450
 App.ExecutableWin=Binaries\Win32\ROGame.exe
 App.ExecutableLinux=/usr/bin/xvfb-run
-App.LinuxCommandLineArgs="-- wine Binaries/Win32/ROGame.exe TE-Apartments?minplayers=0?maxplayers=32?adminpassword={{$RemoteAdminPassword}} -brewedloading"
+App.LinuxCommandLineArgs=-- wine Binaries/Win32/ROGame.exe TE-Apartments?minplayers=0?maxplayers=32?adminpassword={{$RemoteAdminPassword}} -brewedloading
 App.Ports=@IncludeJson[red-orchestra-2ports.json]
 App.UpdateSources=@IncludeJson[red-orchestra-2updates.json]
 App.EnvironmentVariables={
