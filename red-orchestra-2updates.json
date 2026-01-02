@@ -1,0 +1,13 @@
+[
+    {
+        "UpdateStageName": "Download RO2",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "212542",
+        "UpdateSourceArgs": "35450",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    }
+]
