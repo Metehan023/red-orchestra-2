@@ -1,9 +1,10 @@
 {
-	"id": "metehan-ro2-template",
-	"authors": ["Metehan023"],
-	"origin": "https://github.com/Metehan023/RO2-AMP-Template",
-	"url": "https://github.com/Metehan023/RO2-AMP-Template",
-	"imagefile": "",
-	"prefix": "ro2",
-	"repotype": "AppTemplates"
+    "id": "60494ed2-e5ef-4bbd-acbc-30d841fc106a",
+    "authors": [
+        "Metehan023-TR - Made with AMP Config Generator"
+    ],
+    "origin": "https://github.com/Metehan023-TR - Made with AMP Config Generator/AMPTemplates.git",
+    "url": "https://github.com/Metehan023-TR - Made with AMP Config Generator/AMPTemplates",
+    "imagefile": "",
+    "prefix": "Metehan023-TR - Made with AMP Config Generator"
 }
