@@ -87,5 +87,6 @@ App.EnvironmentVariables={
  "WINEARCH": "win64",
  "WINEDEBUG": "-all",
  "DISPLAY": ":99",
- "XDG_RUNTIME_DIR": "/tmp/xdg-{{$InstanceId}}"
+ "XDG_RUNTIME_DIR": "/tmp",
+ "SDL_VIDEODRIVER": "x11"
 }
