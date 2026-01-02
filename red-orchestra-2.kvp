@@ -15,7 +15,7 @@ App.AdminMethod=STDIO
 App.HasReadableConsole=true
 App.HasWritableConsole=true
 App.DisplayName=Red Orchestra 2
-App.CommandLineArgs=TE-Apartments?minplayers=0?maxplayers=32?adminpassword={{$RemoteAdminPassword}} -brewedloading
+App.CommandLineArgs={$PlatformArgs} TE-Apartments?minplayers=0?maxplayers=32?adminpassword={{$RemoteAdminPassword}} -brewedloading
 App.WindowsCommandLineArgs=
 App.CommandLineParameterFormat=-{0} "{1}"
 App.CommandLineParameterDelimiter= 
