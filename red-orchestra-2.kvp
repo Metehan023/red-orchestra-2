@@ -77,8 +77,8 @@ Meta.DisplayImageSource=steam:35450
 App.BaseDirectory=./red-orchestra-2/35450/
 App.WorkingDir=35450
 App.ExecutableWin=Binaries\Win32\ROGame.exe
-App.ExecutableLinux=/usr/bin/wine
-App.LinuxCommandLineArgs="Binaries/Win32/ROGame.exe TE-Apartments?minplayers=0?maxplayers=32?adminpassword={{$RemoteAdminPassword}} -brewedloading {$PlatformArgs}"
+App.ExecutableLinux=/usr/bin/env
+App.LinuxCommandLineArgs=xvfb-run -a wine Binaries/Win32/ROGame.exe TE-Apartments?minplayers=0?maxplayers=32?adminpassword={{$RemoteAdminPassword}} -server -unattended -nosound -brewedloading {$PlatformArgs}
 App.Ports=@IncludeJson[red-orchestra-2ports.json]
 App.UpdateSources=@IncludeJson[red-orchestra-2updates.json]
 App.EnvironmentVariables={
@@ -87,6 +87,6 @@ App.EnvironmentVariables={
  "WINEARCH": "win64",
  "WINEDEBUG": "-all",
  "DISPLAY": ":99",
- "XDG_RUNTIME_DIR": "/tmp",
- "SDL_VIDEODRIVER": "x11"
+ "XDG_RUNTIME_DIR": "/tmp"
 }
+
